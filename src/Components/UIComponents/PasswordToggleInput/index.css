@@ -1,0 +1,24 @@
+/*Password input fields Eye css */
+.password-box {
+  position: relative;
+  width: 100%;
+}
+
+.password-box input {
+  width: 100%;
+  padding-right: 45px;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 15px;
+  top: 22px;
+  cursor: pointer;
+  color: #64748b;
+  font-size: 18px;
+  transition: color 0.2s ease;
+}
+
+.eye-icon:hover {
+  color: #2563eb;
+}
